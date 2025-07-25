@@ -1,5 +1,10 @@
 # 💳 Detección de Fraude con Machine Learning
 
+<p align="center">
+  <img src="images/banner_fraude.png" width="700"/>
+</p>
+
+
 Este proyecto aplica técnicas de **aprendizaje automático supervisado** para detectar transacciones fraudulentas en tarjetas de crédito. El objetivo es construir un modelo eficaz que logre **identificar el fraude** minimizando los falsos negativos, en un contexto de **datos altamente desbalanceados**.
 
 ---
@@ -59,14 +64,14 @@ Este proyecto aplica técnicas de **aprendizaje automático supervisado** para d
 
 ## 📷 Visualizaciones
 
-<img src="img/distribucion_clases.png" alt="Distribución de Clases" width="500"/>
-<img src="img/distribucion_monto_clase.png" alt="Distribución de Monto según Clase" width="500"/>
-<img src="img/boxplot_monto_clase.png" alt="Box Plot del Monto según Clase" width="500"/>
-<img src="img/correlacion_variables_clase.png" alt="Correlación de variables con la clase objetivo" width="500"/>
-<img src="img/roc_regresion.png" alt="Curva ROC - Regresión Logistica (Pipeline)" width="500"/>
-<img src="img/roc_arbol.png" alt="Curva ROC - Árbol de decisión (Pipeline)" width="500"/>
-<img src="img/roc_randomforest.png" alt="Curva ROC - Random Forest (Pipeline)" width="500"/>
-<img src="img/roc_xgboost.png" alt="Curva ROC - XGBoost (Pipeline)" width="500"/>
+<img src="images/distribucion_clases.png" alt="Distribución de Clases" width="500"/>
+<img src="images/distribucion_monto_clase.png" alt="Distribución de Monto según Clase" width="500"/>
+<img src="images/boxplot_monto_clase.png" alt="Box Plot del Monto según Clase" width="500"/>
+<img src="images/correlacion_variables_clase.png" alt="Correlación de variables con la clase objetivo" width="500"/>
+<img src="images/roc_regresion.png" alt="Curva ROC - Regresión Logistica (Pipeline)" width="500"/>
+<img src="images/roc_arbol.png" alt="Curva ROC - Árbol de decisión (Pipeline)" width="500"/>
+<img src="images/roc_randomforest.png" alt="Curva ROC - Random Forest (Pipeline)" width="500"/>
+<img src="images/roc_xgboost.png" alt="Curva ROC - XGBoost (Pipeline)" width="500"/>
 
 ---
 
@@ -76,15 +81,15 @@ Se utilizó la librería **SHAP** para explicar el modelo de XGBoost, identifica
 
 🔹 Importancia media de variables (SHAP)
 
-<img src="img/shap_features_importance.png" alt="Feature Importance (mean SHAP value)" width="500"/>
+<img src="images/shap_features_importance.png" alt="Feature Importance (mean SHAP value)" width="500"/>
 
 🔹 Distribución del impacto de las variables
 
-<img src="img/shap_summary_plot.png" alt="SHAP summary plot" width="500"/>
+<img src="images/shap_summary_plot.png" alt="SHAP summary plot" width="500"/>
 
 🔹 Explicación de una predicción individual
 
-<img src="img/shap_watterfall_plot.png" alt="SHAP waterfall plot" width="500"/>
+<img src="images/shap_watterfall_plot.png" alt="SHAP waterfall plot" width="500"/>
 
 ---
 
