@@ -67,9 +67,6 @@ Este proyecto aplica técnicas de **aprendizaje automático supervisado** para d
 <img src="img/roc_arbol.png" alt="Curva ROC - Árbol de decisión (Pipeline)" width="500"/>
 <img src="img/roc_randomforest.png" alt="Curva ROC - Random Forest (Pipeline)" width="500"/>
 <img src="img/roc_xgboost.png" alt="Curva ROC - XGBoost (Pipeline)" width="500"/>
-<img src="img/shap_features_importance.png" alt="Feature Importance (mean SHAP value)" width="500"/>
-<img src="img/shap_summary_plot.png" alt="SHAP summary plot" width="500"/>
-<img src="img/shap_watterfall_plot.png" alt="SHAP force plot individual" width="500"/>
 
 ---
 
