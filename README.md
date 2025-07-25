@@ -101,6 +101,6 @@ fraude-tarjeta/
 ├── README.md                    # Este archivo
 ├── requeriments.txt             # Librerías necesarias
 └── /images                      # Gráficos de EDA y resultados
-´´´
+```
 
 🔗 Proyecto realizado por [Matías Vallone](https://github.com/ValloneMatias)
