@@ -59,14 +59,30 @@ Este proyecto aplica técnicas de **aprendizaje automático supervisado** para d
 
 ## 📷 Visualizaciones
 
-<img src="img/roc_randomforest.png" alt="Curva ROC Random Forest" width="500"/>
-<img src="img/shap_summary.png" alt="SHAP Summary Plot" width="500"/>
+<img src="img/distribucion_clases.png" alt="Distribución de Clases" width="500"/>
+<img src="img/distribucion_monto_clase.png" alt="Distribución de Monto según Clase" width="500"/>
+<img src="img/boxplot_monto_clase.png" alt="Box Plot del Monto según Clase" width="500"/>
+<img src="img/correlacion_varibles_clase.png" alt="Correlación de variables con la clase objetivo" width="500"/>
+<img src="img/roc_regresion.png" alt="Curva ROC - Regresión Logistica (Pipeline)" width="500"/>
+<img src="img/roc_arbol.png" alt="Curva ROC - Árbol de decisión (Pipeline)" width="500"/>
+<img src="img/roc_randomforest.png" alt="Curva ROC - Random Forest (Pipeline)" width="500"/>
+<img src="img/roc_xgboost.png" alt="Curva ROC - XGBoost (Pipeline)" width="500"/>
+<img src="img/shap_features_importance.png" alt="Feature Importance (mean SHAP value)" width="500"/>
+<img src="img/shap_summary_plot.png" alt="SHAP summary plot" width="500"/>
+<img src="img/shap_watterfall_plot.png" alt="SHAP force plot individual" width="500"/>
 
 ---
 
 ## 🧠 Interpretabilidad (SHAP)
 
 Se utilizó la librería **SHAP** para explicar el modelo de XGBoost, identificando las variables que más contribuyen a detectar fraudes.
+
+🔹 Importancia media de variables (SHAP)
+<img src="img/shap_features_importance.png" alt="Feature Importance (mean SHAP value)" width="500"/>
+🔹 Distribución del impacto de las variables
+<img src="img/shap_summary_plot.png" alt="SHAP summary plot" width="500"/>
+🔹 Explicación de una predicción individual
+<img src="img/shap_watterfall_plot.png" alt="SHAP waterfall plot" width="500"/>
 
 ---
 
@@ -76,7 +92,7 @@ Se utilizó la librería **SHAP** para explicar el modelo de XGBoost, identifica
 fraude-tarjeta/
 ├── fraude-tarjeta.ipynb         # Notebook con el proyecto completo
 ├── README.md                    # Este archivo
-├── requeriments.txt             # (Opcional) Librerías necesarias
+├── requeriments.txt             # Librerías necesarias
 └── /images                      # Gráficos de EDA y resultados
 ´´´
 
